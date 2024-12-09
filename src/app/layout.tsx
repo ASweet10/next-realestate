@@ -6,6 +6,7 @@ import Hero from "./components/Hero"
 import Properties from "./components/Properties"
 import Reviews from "./components/Reviews"
 import Footer from "./components/Footer"
+import PropertyManagement from "./components/PropertyManagement"
 
 const font = Roboto({
   weight: ["100", "300", "500", "700", "900"],
@@ -29,6 +30,7 @@ export default function RootLayout({
         <Hero />
         <Properties />
         <Reviews />
+        <PropertyManagement />
         <Footer />
       </body>
     </html>

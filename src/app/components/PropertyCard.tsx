@@ -28,12 +28,12 @@ const PropertyCard = ({property}: cardProps) => {
                     <h1 className='text-2xl font-bold'>
                         {property.price.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}
                     </h1>
-                    <div className='flex gap-2 items-center'>
-                        <p>{property.bedrooms} bds</p>
+                    <div className='flex gap-1 items-center'>
+                        <p className='font-bold'>{property.bedrooms} <span className='font-normal text-sm'>bds</span></p>
                         <p className='text-xl text-gray-500'> | </p>
-                        <p>{property.bathrooms} ba</p>
+                        <p className='font-bold'>{property.bathrooms} <span className='font-normal text-sm'>ba</span></p>
                         <p className='text-xl text-gray-500'> | </p>
-                        <p>{property.size} sqft</p>
+                        <p className='font-bold'>{property.size} <span className='font-normal text-sm'>sqft</span></p>
                         <p className='text-xl text-gray-500'> | </p>
                         <p>{property.listingActive ? 'Active' : 'Sold'}</p>
                     </div>

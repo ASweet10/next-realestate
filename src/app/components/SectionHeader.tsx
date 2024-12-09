@@ -6,7 +6,7 @@ type headerProps = {
 
 const SectionHeader = ({header}: headerProps) => {
   return (
-    <h1 className='text-center text-4xl md:text-5xl font-semibold pt-16'>{header}</h1>
+    <h1 className='text-start text-2xl md:text-3xl font-semibold pt-16'>{header}</h1>
   )
 }
 

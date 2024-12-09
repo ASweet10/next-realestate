@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <div>
         {/* Desktop */}
-        <div className={`fixed ${desktopNavVisible ? 'bg-gray-600' : ""} h-[10vh] z-[100] w-full transition-all duration-200`}>
+        <div className={`fixed ${desktopNavVisible ? 'bg-blue-950' : ""} h-[10vh] z-[100] w-full transition-all duration-200`}>
             <div className='flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[85%] mx-auto'>
                 <div className='flex items-center justify-between gap-8'>
                     <Link href="/" className='flex items-center space-x-2'>

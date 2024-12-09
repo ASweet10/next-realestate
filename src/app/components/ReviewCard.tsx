@@ -26,7 +26,7 @@ const ReviewCard = ({review}: reviewProps) => {
         <p className='mt-6 text-base text-gray-600 font-medium'>{review.review}</p>
         <div className='w-full h-[1.2px] bg-gray-600 opacity-10 mt-6 mb-6'></div>
         <div className='flex items-center gap-4'>
-            <Image src={review.image} alt={review.name} width={35} height={35} className="rounded-full" />
+            <Image src={review.image} alt={review.name} width={35} height={35} className="rounded-full object-cover max-w-full h-auto" />
             <div>
                 <h1 className='font-bold text-gray-800'>{review.name}</h1>
                 <p className='text-sm text-gray-500'>{review.profession}</p>
